@@ -8,10 +8,10 @@
     <search-fields>
       <field name="partner" type="reference" target="com.axelor.contact.db.Contact"/>
       <field name="product" type="reference" target="com.axelor.sale.db.Product" widget="SuggestBox"/>
-      <field name="customer" type="string" />
-      <field name="date" type="date"/>
-      <field name="value" type="decimal" />
-      <field name="orderStatus" type="string" widget="single-select" selection="order.status.selection"/>
+<!--      <field name="customer" type="string" />-->
+<!--      <field name="date" type="date"/>-->
+<!--      <field name="value" type="decimal" />-->
+<!--      <field name="orderStatus" type="string" widget="single-select" selection="order.status.selection"/>-->
     </search-fields>
 
     <result-fields>
