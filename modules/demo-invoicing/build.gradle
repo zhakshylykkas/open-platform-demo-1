@@ -3,9 +3,10 @@ plugins {
 }
 
 axelor {
-    title = "Axelor :: Custom"
+    title = "Axelor :: Invoicing"
 }
 
 dependencies {
     api project(":modules:demo-contact")
+    api project(":modules:demo-sale")
 }

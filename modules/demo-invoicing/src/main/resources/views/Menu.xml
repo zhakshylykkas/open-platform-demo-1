@@ -6,7 +6,7 @@
     <menuitem name="menu-invoicing" title="Invoicing Menu"/>
     <menuitem name="menu-invoicing-product" title="All Products" parent="menu-invoicing" action="invoicing.products"/>
 
-    <action-view name="invoicing.products" title="Products" model="com.axelor.invoicing.db.Product">
+    <action-view name="invoicing.products" title="Products" model="com.axelor.sale.db.Product">
         <view type="grid"/>
         <view type="form"/>
     </action-view>
