@@ -10,6 +10,8 @@
     <menuitem name="menu-invoicing-rooms" title="Rooms"/>
     <menuitem name="menu-invoicing-trading-centers" title="Trading-centers"/>
     <menuitem name="menu-invoicing-containers" title="Containers"/>
+    <menuitem name="menu-invoicing-testing" title="Testing"/>
+
 <!--    <menuitem name="menu-invoicing-product" title="All Products" parent="menu-invoicing" action="invoicing.products"/>-->
 
     <action-view name="invoicing.products" title="Products" model="com.axelor.sale.db.Product">
